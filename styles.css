@@ -50,16 +50,20 @@ table {
 /* -------------------------------*/
 
 header{
+    padding: 10px;
+    margin: 0px 600px;
+    border-radius: 10px;
+    background-color: #EE964B;
     text-align: center;
     font-size: 30px
 }
 
 body{
-    background-color: rgb(255, 214, 196);
+    background-color: #083D77;
 }
 #container{
     display: flex;
-    border: 40px solid orange;
+    border: 40px solid #EBEBD3;
     border-radius: 12px;
     padding: 0px;
     margin: 20px auto ;
@@ -70,7 +74,7 @@ body{
 
 }
 div .square{
-    background-color: #7df3f9;
+    background-color: #F4D35E;
     width: 30px;
     height: 30px;
     border: .5px solid black;
@@ -87,7 +91,12 @@ div .square{
 }
 
 .reset{
-    background-color: rgb(179, 202, 28);
+    background-color: #EE964B;
     padding: 10px 30px;
     border-radius: 7px;
+}
+
+footer{
+    color: #ededed;
+    margin-left: 7px;
 }
